@@ -165,7 +165,8 @@
 
                         <h3>Card di presentazione</h3>
                         <p>
-                            Un biglietto digitale con nome, ruolo e link ai social. Esercizio di sintassi sulla strutura HTML.
+                            Un biglietto digitale con nome, ruolo e link ai social. Esercizio di sintassi sulla strutura
+                            HTML.
                         </p>
                         <a target="_blank" href="javascript:void(0)">vedi su GitHub</a>
                     </div>
@@ -175,59 +176,60 @@
                         <hr>
                     </div>
                 </div>
-                </article>
-            </section>
+            </article>
+        </section>
+
+        <!-- SEZIONE RICHIESTA CONTATTO -->
+        <section id="RichiestaDiContatto">
+            <div>
+                <h2 id="contatti">Contatti</h2>
+            </div>
                 
-            <!-- SEZIONE RICHIESTA CONTATTO -->
-            <section id="RichiestaDiContatto">
-                <div>
-                    <h2 id="contatti">Contatti</h2>
-                    <p>Compila il form per scrivermi. Ti contatto entro 24 ore</p>
-                </div>
+            <form action="prova.html" method="get">
+                <fieldset>
+                    <legend>Compila il form per scrivermi. Ti contatto entro 24 ore</legend>
+                    <div>
+                        <label for="nameUser">Nome</label><br>
+                        <input type="text" id="nameUser" placeholder="Inserisci il tuo nome" required>
+                    </div>
+                    <br>
 
-                
-                <form action="prova.html" method="get">
-                <div>
-                    <label for="nameUser">Nome</label><br>
-                    <input type="text" id="nameUser" placeholder="Inserisci il tuo nome" required>
-                </div>
-                <br>
+                    <div>
+                        <label for="emailUser">Inserisci la tua email</label><br>
+                        <input type="email" id="emailUser" placeholder="tu@esempio.it" required>
+                    </div>
+                    <br>
 
-                <div>
-                    <label for="emailUser">Inserisci la tua email</label><br>
-                    <input type="email" id="emailUser" placeholder="tu@esempio.it" required>
-                </div>
-                <br>
+                    <div>
+                        <label for="SceltaMultipla">Motivo del contatto</label><br>
+                        <select name="SceltaMultipla" id="SceltaMultipla">
+                            <option value="" selected></option>
+                            <option value="proposta">Proposta di lavoro</option>
+                            <option value="reclamo">Reclami</option>
+                            <option value="info">informazioni</option>
+                        </select>
+                    </div>
+                    <br>
 
-                <div>
-                    <label for="SceltaMultipla">Motivo del contatto</label><br>
-                    <select name="SceltaMultipla" id="SceltaMultipla">
-                        <option value="" selected></option>
-                        <option value="proposta">Proposta di lavoro</option>
-                        <option value="reclamo">Reclami</option>
-                        <option value="info">informazioni</option>
-                    </select>
-                </div>
-                <br>
+                    <div>
+                        <label for="DataRisposta">Data preferita per la risposta</label><br>
+                        <input id="DataRisposta" type="date">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Messaggio">Messaggio</label><br>
+                        <textarea name="Messaggio" id="Messaggio" rows="4"
+                            placeholder="Scrivi qui il tuo messaggi..."></textarea>
+                    </div>
+                    <br>
 
-                <div>
-                    <label for="DataRisposta">Data preferita per la risposta</label><br>
-                    <input id="DataRisposta" type="date">
-                </div>
-                <br>
-                <div>
-                    <label for="Messaggio">Messaggio</label><br>
-                    <textarea name="Messaggio" id="Messaggio" rows="4"
-                        placeholder="Scrivi qui il tuo messaggi..."></textarea>
-                </div>
-                <br>
-
-                <div>
-                    <input id="Condizioni" type="checkbox" required>
-                    <label for="Condizioni">Accetto di essere ricontattato all'indirizzo indicato</label>
-                </div>
-                <br>
-                <button type="submit">Invia</button>
+                    <div>
+                        <input id="Condizioni" type="checkbox" required>
+                        <label for="Condizioni">Accetto di essere ricontattato all'indirizzo indicato</label>
+                    </div>
+                    <br>
+                    <button type="submit">Invia</button>
+                </fieldset>
             </form>
             <br>
             <div class="returnHome">
@@ -235,7 +237,9 @@
                 <hr>
             </div>
         </section>
+
     </main>
+
     <!-- Campo non fondamentale ai fini della pagina -->
     <aside>
         <div>
