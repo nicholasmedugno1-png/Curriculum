@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+    font-family: 'roboto';
+}
+
+.topBar {
+    background-image: url(../media/img/pexels-pixabay-256502.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.topBar h1 {
+    color: #ffffff;
+}
+
+.topBar p {
+
+    color: #f25353;
+    font-style: italic;
+}
+
+.topBar ul li {
+    color: #e9ebee;
+}
+
+.topBar ul li a {
+    color: #888e29;
+    font-weight: bold;
+}
+
+.topBar ul li a:hover {
+    color: #ffffff;
+    font-style: bold;
+}
+
+.presentazione p:first-child {
+    color: #344872;
+    font-style: italic;
+}
+
+h2,
+h3 {
+    color: #1f3d7a;
+}
+
+.returnHome {
+    text-align: center;
+}
+
+.skillList:nth-child(even) {
+    background-color: #e9ebee;
+}
+
+.progect {
+    background-color: #e9ebee;
+}
+
+.gitHubLink:hover {
+    color: red;
+}
+
+
+.imgPersonale {
+    width: 250px;
+    height: 280;
+}
+
+label {
+    font-family: 'Helvetica,Arial,sans-serif';
+    color: #1f3d7a;
+    font-weight: bold;
+}
+
+input:hover,
+textarea:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: black;
+    color: #ffffff;
+}
+
+.btnInvia {
+    background-color: #1f3d7a;
+    padding: 5px 30px;
+}
+
+.btnInvia:hover {
+    background-color: #194eb6;
+    padding: 5px 30px;
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 3px;
+}
+
+input:placeholder-shown,
+textarea:placeholder-shown {
+    font-family: 'Helvetica,Arial,sans-serif';
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+     border-collapse: collapse;
+    border: 1px solid black;
+}
+caption {
+    border: 1px solid black;
+}
