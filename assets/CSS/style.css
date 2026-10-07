@@ -54,6 +54,9 @@ h3 {
 .skillList:nth-child(even) {
     background-color: #e9ebee;
 }
+.skillList:nth-child(odd) {
+    background-color: #ffffff;
+}
 
 .progect {
     background-color: #e9ebee;
@@ -73,6 +76,10 @@ label {
     font-family: 'Helvetica,Arial,sans-serif';
     color: #1f3d7a;
     font-weight: bold;
+}
+
+.input {
+    width: 50%;
 }
 
 input:hover,
@@ -109,6 +116,7 @@ input:placeholder-shown,
 textarea:placeholder-shown {
     font-family: 'Helvetica,Arial,sans-serif';
 }
+
 
 table {
     border-collapse: collapse;
