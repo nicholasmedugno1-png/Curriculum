@@ -9,6 +9,7 @@ body {
     background-image: url(../media/img/pexels-pixabay-256502.jpg);
     background-size: cover;
     background-position: center;
+    background-position-y: 330px;
     text-align: center;
 }
 
