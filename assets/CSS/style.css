@@ -121,6 +121,8 @@ h2::before{
 
 .progect {
     background-color: #e9ebee;
+    padding: 3px 5px;
+    border-radius: 8px;
 }
 
 .progect h3:first-of-type::after {
@@ -235,3 +237,11 @@ caption {
     background-color: #1f3d7a;
     color: #e9ebee;
     }
+
+         #competenze ul li::before {
+            content: '⇨';
+            margin-right: 5px ;
+        } 
+         #competenze ul li {
+            list-style: none;
+         } 
