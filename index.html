@@ -11,16 +11,16 @@
 </head>
 
 <body>
-    <header>
+    <header id="site-header">
         <div class="topBar">
             <h1>Mario Rossi</h1>
             <p><i>Studente Full Stack - corso Epicode 2026</i></p>
             <nav>
                 <ul>
-                    <li><a href="#titleChiSono">Chi sono</a></li>
+                    <li><a href="#chi'sono">Chi sono</a></li>
                     <li><a href="#competenze">Competenze</a></li>
-                    <li><a href="#progetti">Progetti</a></li>
                     <li><a href="#esperienze">Esperienze</a></li>
+                    <li><a href="#progetti">Progetti</a></li>
                     <li><a href="#contatti">Contatti</a></li>
                 </ul>
             </nav>
@@ -31,178 +31,182 @@
 
     <main>
         <!-- SEZIONE INFO PERSONALI -->
-        <section>
+        <section id="chi'sono">
             <article>
-                <div>
-                    <h2 class="title">Chi sono</h2>
-                </div>
+                <h2 class="title">Chi sono</h2>
+            
 
-                <div class="containerChiSono">
-                    <div class="ContainerImg">
-                        <figure>
-                            <!-- FOTO SCARICATA E CARICATA NELLA CARTELLA ASSETS ATTIVARE IN CASO NON TROVA LINK ONLIN -->
-                            <!-- <img class="imgPersonale"
+            <div class="containerChiSono">
+                
+                        <!-- FOTO SCARICATA E CARICATA NELLA CARTELLA ASSETS ATTIVARE IN CASO NON TROVA LINK ONLIN -->
+                        <!-- <img class="imgPersonale"
                                 src="assets/pexels-kampus-8353812.jpg"
                                 alt="Foto-Presentazione" title="Fonte: pexels.com"> -->
 
-                            <img class="imgPersonale"
-                                src="https://images.pexels.com/photos/8353812/pexels-photo-8353812.jpeg"
-                                alt="Foto-Presentazione" title="Fonte: pexels.com">
-                            <figcaption>Fonte: pexels.com</figcaption>
-                        </figure>
-                    </div>
-                    <div class="presentazione">
-                        <p>
-                            Mi chiamo Mario rossi e sto imparando a programmare.
-                            Studio sviluppo web con <b>Epicode</b> e ogni giorno aggiungo qualcosa di nuovo a questa
-                            pagina.
-                            Mi piace lavorare in gruppo, leggere documentazione tecnica e capire come funzionano le
-                            cose.
-                        </p>
-
-                        <p>
-                            vivo a Milano. Ho una formazione precedente in <i>lettere</i> e ora sto cambiando
-                            settore.Cerco
-                            un primo
-                            ruolo come sviluppatore frontend
-                        </p>
-                    </div>
-                    <div class="returnHome">
-                        <a href="index.html"><span class="material-symbols-outlined">arrow_upward</span></a>
-                    </div>
-                    <hr>
-
-                </div>
-            </article>
-
-
-            <article>
-                <div>
-                    <h2 id="competenze">Competenze</h2>
+                        <img class="imgPersonale"
+                            src="https://images.pexels.com/photos/8353812/pexels-photo-8353812.jpeg"
+                            alt="Foto-Presentazione" title="Fonte: pexels.com">
+                        
+                    
 
                     <p>
-                        Le tecnologie che vedo durante le prime settimane di corso.
+                        Mi chiamo Mario rossi e sto imparando a programmare.
+                        Studio sviluppo web con <b>Epicode</b> e ogni giorno aggiungo qualcosa di nuovo a questa
+                        pagina.
+                        Mi piace lavorare in gruppo, leggere documentazione tecnica e capire come funzionano le
+                        cose.
                     </p>
+                
+                
+                
+                    <p class="noFloat">vivo a Milano. Ho una formazione precedente in <i>lettere</i> e ora sto cambiando
+                        settore.Cerco un primo ruolo come sviluppatore frontend</p>
+                
+            </div>
 
-                    <ul class="skillList" >
-                        <li class="skillList" ><b>HTML</b> - struttura delle pagine</li>
-                        <li class="skillList" ><b>CSS</b> - stile e impaginazione</li>
-                        <li class="skillList" ><b>Git e GitHub</b> - versionamento del codice</li>
-                        <li class="skillList"><b>Visual Studio Code</b> - editor di lavoro</li>
-                    </ul>
-                </div>
-                <div class="returnHome">
-                    <a href="index.html"><span class="material-symbols-outlined">arrow_upward</span></a>
-                    <hr>
-                </div>
-            </article>
 
+            <div class="returnHome">
+                <a href="index.html"><span class="material-symbols-outlined">arrow_upward</span></a>
+            </div>
+        </article>
+        </section>
+
+
+
+
+
+        <section id="competenze">
+             <article>
+            <div>
+                <h2 id="competenze">Competenze</h2>
+
+                <p>
+                    Le tecnologie che vedo durante le prime settimane di corso.
+                </p>
+
+                <ul class="skillList">
+                    <li class="skillList"><b>HTML</b> - struttura delle pagine</li>
+                    <li class="skillList"><b>CSS</b> - stile e impaginazione</li>
+                    <li class="skillList"><b>Git e GitHub</b> - versionamento del codice</li>
+                    <li class="skillList"><b>Visual Studio Code</b> - editor di lavoro</li>
+                </ul>
+            </div>
+            <div class="returnHome">
+                <a href="index.html"><span class="material-symbols-outlined">arrow_upward</span></a>
+            </div>
+             </article>
+        </section>
+
+
+        <section id="esperienze">
             <article>
+            <div>
+                <h2>Esperienze</h2>
+                <p>Un riepilogo del mio corso formativo e lavorativo recente</p>
+            </div>
+            
+            <div class="table">
+                <table>
+                    <caption>Esperienze formative e lavorative</caption>
+                    <thead>
+                        <tr>
+                            <th>Anno</th>
+                            <th>Ruolo</th>
+                            <th>Azienda/Scuola</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Righa1 -->
+                        <tr>
+                            <th>2026</th>
+                            <th>Studente Full Stack Epicode</th>
+                        </tr>
+                        <!-- Righa2 -->
+                        <tr>
+                            <th>2024-2025</th>
+                            <th>libraio</th>
+                            <th>Libreria Centrale, Milano</th>
+                        </tr>
+                        <!-- Righa3 -->
+                        <tr>
+                            <th>2018-2022</th>
+                            <th>Studente di Lettere</th>
+                            <th>Universita' degli Studi di Milano</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <div class="returnHome">
+                <a href="index.html"><span class="material-symbols-outlined">arrow_upward</span></a>
 
+            </div>
+            </articlea>
+        </section>
+
+        <section id="progetti">
+            <article>
+            <div>
                 <div>
-                    <h2 id="esperienze">Esperienze</h2>
-                    <p>Un riepilogo del mio corso formativo e lavorativo recente</p>
+                    <h2 id="progetti">Progetti</h2>
+                    <p>
+                        I lavori fatti durante le prime settimane di corso
+                    </p>
+                </div>
+
+                <div class="progect">
+                    <h3>Pagina ricetta</h3>
+                    <p>
+                        Una pagina con titolo, ingredienti e procedura. Esercizio di markup semantico applicato a un
+                        contenuto reale
+                    </p>
+                    <!-- IL TARGET="_BLANK" PER APRIRE IL LINK IN UNA NUOVA PAGINA QUANDO INSERIREMO I LINK -->
+                    <a class="gitHubLink" target="_blank" href="javascript:void(0)">vedi su GitHub</a>
                 </div>
                 <div>
-
-                    <table>
-                        <caption>Esperienze formative e lavorative</caption>
-                        <thead>
-                            <tr>
-                                <th>Anno</th>
-                                <th>Ruolo</th>
-                                <th>Azienda/Scuola</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- Righa1 -->
-                            <tr>
-                                <th>2026</th>
-                                <th>Studente Full Stack Epicode</th>
-                            </tr>
-                            <!-- Righa2 -->
-                            <tr>
-                                <th>2024-2025</th>
-                                <th>libraio</th>
-                                <th>Libreria Centrale, Milano</th>
-                            </tr>
-                            <!-- Righa3 -->
-                            <tr>
-                                <th>2018-2022</th>
-                                <th>Studente di Lettere</th>
-                                <th>Universita' degli Studi di Milano</th>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <h3>Card di presentazione</h3>
+                    <p>
+                        Un biglietto digitale con nome, ruolo e link ai social. Esercizio di sintassi sulla strutura
+                        HTML.
+                    </p>
+                    <a class="gitHubLink" target="_blank" href="javascript:void(0)">vedi su GitHub</a>
                 </div>
                 <br>
                 <div class="returnHome">
                     <a href="index.html"><span class="material-symbols-outlined">arrow_upward</span></a>
 
                 </div>
-                <hr>
-            </article>
-
-            <article>
-                <div>
-                    <div>
-                        <h2 id="progetti">Progetti</h2>
-                        <p>
-                            I lavori fatti durante le prime settimane di corso
-                        </p>
-                    </div>
-
-                    <div class="progect">
-                        <h3>Pagina ricetta</h3>
-                        <p>
-                            Una pagina con titolo, ingredienti e procedura. Esercizio di markup semantico applicato a un
-                            contenuto reale
-                        </p>
-                        <!-- IL TARGET="_BLANK" PER APRIRE IL LINK IN UNA NUOVA PAGINA QUANDO INSERIREMO I LINK -->
-                        <a class="gitHubLink" target="_blank" href="javascript:void(0)">vedi su GitHub</a>
-                    </div>
-
-                    <div class="progect">
-                        <h3>Card di presentazione</h3>
-                        <p>
-                            Un biglietto digitale con nome, ruolo e link ai social. Esercizio di sintassi sulla strutura
-                            HTML.
-                        </p>
-                        <a class="gitHubLink" target="_blank" href="javascript:void(0)">vedi su GitHub</a>
-                    </div>
-                    <br>
-                    <div class="returnHome">
-                        <a href="index.html"><span class="material-symbols-outlined">arrow_upward</span></a>
-
-                    </div>
-                </div>
-                <hr>
+            </div>
             </article>
         </section>
 
+
         <!-- SEZIONE RICHIESTA CONTATTO -->
-        <section id="RichiestaDiContatto">
+        <section id="contatti">
+            <article>
             <div>
-                <h2 id="contatti">Contatti</h2>
+                <h2>Contatti</h2>
             </div>
 
             <form action="prova.html" method="get">
-                <fieldset>
-                    <legend>Compila il form per scrivermi. Ti contatto entro 24 ore</legend>
+                
+                    <p>Compila il form per scrivermi. Ti contatto entro 24 ore</p>
                     <div>
-                        <label for="nameUser">Nome</label><br>
-                        <input class="input"  name="nameUser" type="text" id="nameUser" placeholder="Inserisci il tuo nome" required>
+                        <label for="nameUser">Nome</label>
+                        <input class="input" name="nameUser" type="text" id="nameUser"
+                            placeholder="Inserisci il tuo nome" required>
                     </div>
-                    <br>
+                    
 
                     <div>
-                        <label for="emailUser">Inserisci la tua email</label><br>
-                        <input class="input" name="emailUser" type="email" id="emailUser" placeholder="tu@esempio.it" required>
+                        <label for="emailUser">Inserisci la tua email</label>
+                        <input class="input" name="emailUser" type="email" id="emailUser" placeholder="tu@esempio.it"
+                            required>
                     </div>
-                    <br>
+                    
 
                     <div>
-                        <label for="SceltaMultipla">Motivo del contatto</label><br>
+                        <label for="SceltaMultipla">Motivo del contatto</label>
                         <select class="input" name="SceltaMultipla" id="SceltaMultipla">
                             <option value="" selected></option>
                             <option value="proposta">Proposta di lavoro</option>
@@ -210,32 +214,32 @@
                             <option value="info">informazioni</option>
                         </select>
                     </div>
-                    <br>
+                    
 
                     <div>
-                        <label for="dataRisposta">Data preferita per la risposta</label><br>
+                        <label for="dataRisposta">Data preferita per la risposta</label>
                         <input class="input" name="datarisposta" id="dataRisposta" type="date">
                     </div>
-                    <br>
+                    
                     <div>
-                        <label for="Messaggio">Messaggio</label><br>
+                        <label for="Messaggio">Messaggio</label>
                         <textarea class="input" name="Messaggio" id="Messaggio" rows="4"
                             placeholder="Scrivi qui il tuo messaggi..."></textarea>
                     </div>
                     <br>
 
                     <div>
-                        <input id="Condizioni" type="checkbox" required>
-                        <label for="Condizioni">Accetto di essere ricontattato all'indirizzo indicato</label>
+                        <input class="condizioni" id="Condizioni" type="checkbox" required>
+                        <label class="condizioni" for="Condizioni">Accetto di essere ricontattato all'indirizzo indicato</label>
                     </div>
-                    <br>
+                    
                     <button class="btnInvia" type="submit">Invia</button>
-                </fieldset>
             </form>
-            <br>
+            
             <div class="returnHome">
                 <a href="index.html"><span class="material-symbols-outlined">arrow_upward</span></a>
             </div>
+            </article>
         </section>
 
     </main>
@@ -256,7 +260,6 @@
                 Profilo LinkedIn:
                 <a class="gitHubLink" href="javascript:void(0)">linkedin.com/in/mariorossi</a>
             </p>
-            <hr>
         </div>
     </aside>
 
