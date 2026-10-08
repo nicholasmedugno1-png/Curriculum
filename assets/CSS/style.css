@@ -71,6 +71,9 @@ main, aside {
 
 
 .imgPersonale {
+    background-image: url(../media/img/pexels-kampus-8353812.jpg);
+    background-size:cover;
+    background-position: center;
     width: 130px;
     height: 130px;
     border-radius: 50%;
